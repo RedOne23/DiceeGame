@@ -51,7 +51,9 @@ if (randomNumber2 === 1){
 /* H1 CHANGE */
 
 if (randomNumber1 > randomNumber2){
-  document.querySelector("h1").innerHTML="Player One Wins !"
+  document.querySelector("h1").innerHTML="🚩 Player 1 Wins !";
+} else if (randomNumber1 < randomNumber2){
+  document.querySelector("h1").innerHTML=" Player 2 Wins ! 🚩";
 } else{
-  document.querySelector("h1").innerHTML="Player Two Wins !"
+  document.querySelector("h1").innerHTML = "Draw !";
 }
